@@ -36,5 +36,5 @@ class Menu
 
 int main()
 {
-    
+    cout << "Hello";
 }
