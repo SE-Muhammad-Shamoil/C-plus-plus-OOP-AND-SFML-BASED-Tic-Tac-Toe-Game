@@ -1,2 +1,1 @@
-# Portfolio
-This is my portfolio showcasing my skiils and general projects
+A C++OOP Project Featuring SFMl Based Basic Tic Tac Toe Game (Still in developemnt)
