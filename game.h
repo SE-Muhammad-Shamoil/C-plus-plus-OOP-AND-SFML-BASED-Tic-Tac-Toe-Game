@@ -16,8 +16,21 @@ public:
 
     }
 
-    void play()
+    void play(sf::RenderWindow &window)
     {
-        
+        while(window.isOpen())
+        {
+            sf::Event evnt;
+            while(window.pollEvent(evnt))
+            {
+                switch(evnt.type)
+                {
+                    case sf::Event::Closed:
+                        window.close();
+                }
+            }
+            window.clear(sf::Color::Magenta);
+            window.display();
+        }
     }
 };
