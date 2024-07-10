@@ -2,7 +2,6 @@
 #include <sfml/Audio.hpp>
 #include <iostream>
 #include "moves.h"
-#
 using namespace std;
 
 class game
@@ -17,7 +16,7 @@ public:
 
     }
 
-    void start()
+    void play()
     {
         
     }
